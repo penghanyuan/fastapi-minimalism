@@ -1,0 +1,7 @@
+{
+    "username": "",
+    "project_name": "cookiecutter-ml",
+    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_short_description": "project template for minimal FastAPI project"
+}
